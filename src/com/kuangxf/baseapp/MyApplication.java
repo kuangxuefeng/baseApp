@@ -18,6 +18,7 @@ public class MyApplication extends Application {
 		super.onCreate();
 		LogUtil.e("onCreate()");
 		instance = this;
+		initDB();
 	}
 	
 	public static MyApplication getInstance() {

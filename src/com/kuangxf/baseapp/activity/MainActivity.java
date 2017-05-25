@@ -32,6 +32,8 @@ public class MainActivity extends BaseActivity {
         // EScenarioType.E_UM_NORMAL));
         MobclickAgent.setScenarioType(mContext, EScenarioType.E_UM_NORMAL);
 		
+        MobclickAgent.onEvent(mContext, "MainActivityCreate");
+        
 		test();
 	}
 	
